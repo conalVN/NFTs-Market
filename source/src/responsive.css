@@ -1,0 +1,334 @@
+/* Small */
+@media screen and (max-width: 540px){   
+    /* Nav */
+    i.bx.bx-menu{
+        font-size: 34px;
+    }
+    input.form-control{
+        width: 100%;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+    
+    /* Explore */
+    #explore-area{
+        padding: 10px 0;
+    }
+    .explore-left-heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .explore-left-data{
+        list-style: none;
+        display: flex;
+        padding: 10px 0;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .data-item{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .data-item span{
+        font-size: 30px;
+    }
+    .explore-right{
+        position: relative;
+        width: 100%;
+    }
+    .card{
+        position: absolute;
+        background: var(--bg-card);
+        padding: 10px;
+        left: 25%;
+        transform: translateX(-20%);
+    }
+    .card-body{
+        padding: 1rem .5rem .5rem;
+    }
+    .card-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-name{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-user{
+        display: flex;
+    }
+    .card-user img{
+        margin: 0 -6px;
+    }
+    .card-content ul{
+        list-style: none;
+        display: flex;
+        padding: 0;justify-content: space-between;
+    }
+    .card-content ul li{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .card-content ul li span{
+        font-size: 9px;
+        color: #545C71;
+    }
+    .explore-partner{
+        margin-top: 500px;
+    }
+    .explore-partner li{
+        margin: 0 10px;
+    }
+
+
+    
+}
+
+/* Medium */
+@media screen and (min-width: 541px) and (max-width: 768px ){
+    /* Nav  */
+    i.bx.bx-menu{
+        font-size: 34px;
+    }
+    input.form-control{
+        width: 100%;
+    }
+    .btn{
+        margin-top: 15px;
+    }
+
+    /* Explore */
+    #explore-area{
+        padding: 10px 0;
+    }
+    .explore-left-heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .explore-left-data{
+        list-style: none;
+        display: flex;
+        padding: 10px 0;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .data-item{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .data-item span{
+        font-size: 30px;
+    }
+    .explore-right{
+        position: relative;
+        width: 100%;
+    }
+    .card{
+        position: absolute;
+        background: var(--bg-card);
+        padding: 10px;
+        left: 25%;
+        transform: translateX(-20%);
+    }
+    .card-body{
+        padding: 1rem .5rem .5rem;
+    }
+    .card-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-name{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-user{
+        display: flex;
+    }
+    .card-user img{
+        margin: 0 -6px;
+    }
+    .card-content ul{
+        list-style: none;
+        display: flex;
+        padding: 0;justify-content: space-between;
+    }
+    .card-content ul li{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .card-content ul li span{
+        font-size: 9px;
+        color: #545C71;
+    }
+    .explore-partner{
+        margin-top: 540px;
+    }
+    .explore-partner li{
+        margin: 0;
+    }
+
+}
+
+/* Large */
+@media screen and (min-width: 769px) and (max-width: 921px) {
+    /* Nav  */
+    input.form-control{
+        width: 160px;
+    }
+    .mb-2{
+        margin-bottom: 0!important;
+    }
+
+    /* Explore */
+    #explore-area{
+        padding: 20px 0;
+    }
+    .explore-left-heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .explore-left-data{
+        list-style: none;
+        display: flex;
+        padding: 10px 0;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .data-item{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .data-item span{
+        font-size: 30px;
+    }
+    .explore-right{
+        position: relative;
+        width: 100%;
+    }
+    .card{
+        position: absolute;
+        background: var(--bg-card);
+        padding: 10px;
+        left: 18%;
+    }
+    .card-body{
+        padding: 1rem .5rem .5rem;
+    }
+    .card-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-name{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-user{
+        display: flex;
+    }
+    .card-user img{
+        margin: 0 -6px;
+    }
+    .card-content ul{
+        list-style: none;
+        display: flex;
+        padding: 0;justify-content: space-between;
+    }
+    .card-content ul li{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .card-content ul li span{
+        font-size: 9px;
+        color: #545C71;
+    }
+    .explore-partner{
+        margin-top: 70px;
+    }
+    .explore-partner li{
+        margin: 0;
+    }
+}
+
+/* XLarge */
+@media screen and (min-width: 922px) and (max-width: 1199px) {
+    /* Nav */
+    input.form-control{
+        width: 170px;
+    }
+    .btn.btn-outline-success{
+        width: 100px;
+    }
+    .mb-2{
+        margin-bottom: 0!important;
+    }
+    
+    /* Explore */
+    #explore-area{
+        padding: 20px 0;
+    }
+    .explore-left-heading{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .explore-left-data{
+        list-style: none;
+        display: flex;
+        padding: 10px 0;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .data-item{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .data-item span{
+        font-size: 30px;
+    }
+    .explore-right{
+        position: relative;
+        width: 100%;
+    }
+    .card{
+        position: absolute;
+        background: var(--bg-card);
+        padding: 10px;
+    }
+    .card-body{
+        padding: 1rem .5rem .5rem;
+    }
+    .card-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-name{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-user{
+        display: flex;
+    }
+    .card-user img{
+        margin: 0 -6px;
+    }
+    .card-content ul{
+        list-style: none;
+        display: flex;
+        padding: 0;justify-content: space-between;
+    }
+    .card-content ul li{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .card-content ul li span{
+        font-size: 9px;
+        color: #545C71;
+    }
+    .explore-partner{
+        margin-top: 130px;
+    }
+    .explore-partner li{
+        margin: 0 20px;
+    }
+    
+ }

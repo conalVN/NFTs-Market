@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+:root{
+    --bg-color-body: #3B5971;
+    --bg-color-btn: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    --color-btn: white;
+    --bg-card: #30384D;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background: var(--bg-color-body);
+    color: white;
+}
+/* CSS public */
+.btn{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    color: var(--color-btn);
+    background: var(--bg-color-btn);
+}
+.heading{
+    text-align: center;
+    align-items: center;
+}
+.descript{
+    background: linear-gradient(180deg, #9C76B8 0%, rgba(156, 118, 184, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card{
+    position: absolute;
+    background: var(--bg-card);
+    padding: 10px;
+    right: 0;
+}
+.card-body{
+    padding: 1rem .5rem .5rem;
+}
+.card-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.card-name{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-user{
+    display: flex;
+}
+.card-user img{
+    margin: 0 -6px;
+}
+.card-content ul{
+    list-style: none;
+    display: flex;
+    padding: 0;justify-content: space-between;
+}
+.card-content ul li{
+    font-size: 15px;
+    padding: 5px;
+}
+.card-content ul li span{
+    font-size: 12px;
+    color: #545C71;
+}
+/* End CSS public */
+
+
+
+
+/* Navbar */
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: #C367E6;
+}
+.form-control{
+    background-color: #3B5971;
+    color: white;
+    width: 250px;
+}
+.form-control::placeholder{
+    color: white;
+}
+form{
+    position: relative;
+}
+form i {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    right: 5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul.navbar-nav{
+    width: 55%;
+    justify-content: space-evenly;
+}
+input.form-control{
+    width: 300px;
+}
+input.form-control:focus {
+    outline: none;
+    border: none;
+}
+/* End Navbar */
+
+
+/* Explore Area  */
+#explore-area{
+    padding: 20px 0;
+}
+.explore-left-heading{
+    font-size: 80px;
+    font-weight: 700;
+}
+.explore-left-data{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+    margin-top: 35px;
+    text-align: center;
+    justify-content: space-around;
+}
+.explore-left-description span{
+    display: block;
+}
+.data-item{
+    font-size: 20px;
+    font-weight: 600;
+}
+.data-item span{
+    font-size: 50px;
+}
+.explore-right{
+    position: relative;
+    width: 100%;
+}
+.explore-partner{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 40px 0;
+}
+.explore-partner li{
+    display: inline-block;
+    margin: 0 35px;
+}
+/* End explore area */
+
+/* Marketplace area*/
+/* #marketplace-area{
+    position: relative;
+}
+.market-menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 20px;
+}
+.market-menu li{
+    padding: 5px 20px;
+    background: #30384D;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.card{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card-item{
+    background: #30384D;
+    padding: 15px 0;
+    width: 100%;
+}
+.card-item img{
+    margin: 0 auto;
+    display: block;
+}
+.card-cont{
+    width: 95%;
+    margin: 0 auto;
+}
+.card-cont .row{
+    padding: 10px 0 5px;
+}
+.card-cont-name{
+    color: #545C71;
+    font-size: 16px;
+}
+.market-btn{
+    padding: 10px 20px;
+    width: 150px;
+    margin: 50px auto;
+    outline: none;
+    border: none;
+    background: #30384D;
+    color: white;
+    border-radius: 5px;
+} */
+/* End Market */
+
+/* Create-sell */
+/* #create-sell-area{
+    padding: 80px 0;
+    margin: 0 auto;
+}
+.create-box{
+    padding: 20px;
+    text-align: center;
+    background: #545C71;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.create-box img{
+    display: block;
+    margin: 0 auto;
+}
+.create-box h3{
+    padding: 10px 0;
+}
+.create-btn{
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #30384D;
+    width: 150px;
+    background: var(--bg-color-btn);
+    padding: 10px 20px;
+    margin: 20px auto;
+}
+.create-btn-outline{
+    background: #30384D;
+} */
+/* End create-sell */
+
+/* Top market */
+/* #top-market-area{
+    padding: 50px 0;
+}
+.top-market-box{
+    display: flex;
+    align-items: center;
+    background: #545C71;
+    border-radius: 5px;
+    padding:10px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.top-market-content{
+    width: 60%;
+}
+.top-market-content p{
+    margin: 0;
+}
+.top-market-btn{
+    width: 150px;
+    border: none;
+    outline: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #30384D;
+} */
+/* End top market */
+
+/* Contact */
+/* #contact-area{
+    padding: 50px 0;
+}
+.contact-box{
+    background: #30384D;
+    padding: 50px;
+    border-radius: 4px;
+} */
+/* End contact */
+
+/* Footer */
+/* #footer-area{
+    padding: 50px 0;
+}
+#footer-area ul{
+    list-style: none;
+}
+.footer-heading{
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer-des{
+    font-size: 18px;
+}
+.social-list{
+    display: flex;
+}
+.social-item{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid;
+    align-items: center;
+    text-align: center;
+    margin: 5px 10px;
+    color: #30384D
+}
+.social-item i{
+    padding: 5px;
+}
+.footer-copy{
+    color: #434957;
+} */

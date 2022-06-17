@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market NFT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./source/src/main.css">
+    <link rel="stylesheet" href="./source/src/responsive.css">
+</head>
+
+<body>
+    <!-- Nav  -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-md">
+                    <a class="navbar-brand text-white" href="#">NFTs Ape</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class='bx bx-menu'></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#explore-area">Explore</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#marketplace-area">Marketplace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#create-sale-area">Artist</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#top-design-area">Collection</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <i class='bx bx-search'></i>
+                        </form>
+                        <button class="btn btn-outline-success" type="submit">Sign in</button>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    <!-- End Nav  -->
+
+    <!-- Explore area -->
+    <section id="explore-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="explore-left">
+                        <h1 class="explore-left-heading">Discover, Sell & Collect Rare NFTs</h1>
+                        <p class="explore-left-description">Digital marketplace for crypto collections and
+                            <span>no-fungible tokens (NFTs)</span>
+                        </p>
+                        <button class="btn">Discover now</button>
+                        <ul class="explore-left-data">
+                            <li class="data-item">
+                                <span>35k+</span><br>
+                                Artworks
+                            </li>
+                            <li class="data-item">
+                                <span>15k+</span><br>
+                                Auctions
+                            </li>
+                            <li class="data-item">
+                                <span>25k+</span><br>
+                                Artists
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="explore-right">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./source/image/image 1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-heading">
+                                    <span class="card-name">Monkey Apes</span>
+                                    <span class="card-user">
+                                        <img src="./source/image/Ellipse 2.png" alt="" class="img-fluid">
+                                        <img src="./source/image/Ellipse 3.png" alt="" class="img-fluid">
+                                        <img src="./source/image/Ellipse 4.png" alt="" class="img-fluid">
+                                        <img src="./source/image/Ellipse 5.png" alt="" class="img-fluid">
+                                        <img src="./source/image/Ellipse 6.png" alt="" class="img-fluid">
+                                        <img src="./source/image/Ellipse 1.png" alt="" class="img-fluid">
+                                    </span>
+                                </div>
+                                <div class="card-content">
+                                    <ul>
+                                        <li>
+                                            <span>Current Bid</span><br>
+                                            0.45 ETH
+                                        </li>
+                                        <li>
+                                            <span>Current Bid</span><br>
+                                            900 Authors
+                                        </li>
+                                        <li>
+                                            <span>Ending in</span><br>
+                                            <i class='bx bxs-hot'></i>10h 43m 26s
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <ul class="explore-partner">
+                    <li>
+                        <img src="./source/image/partner1.png" alt="" class="img-fluid">
+                    </li>
+                    <li>
+                        <img src="./source/image/partner2.png" alt="" class="img-fluid">
+                    </li>
+                    <li>
+                        <img src="./source/image/partner3.png" alt="" class="img-fluid">
+                    </li>
+                    <li>
+                        <img src="./source/image/partner4.png" alt="" class="img-fluid">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- End Explore area -->
+
+    <!-- Marketplace areac -->
+    <!-- <section id="marketplace-area">
+        <div class="container">
+            <div class="row">
+                <p class="p-des">NFT Marketplace</p>
+                <h1 class="h1-heading">Super Hot Drops
+                    <i class='bx bxs-hot'></i>
+                </h1>
+            </div>
+            <div class="row">
+                <ul class="market-menu">
+                    <li>Music</li>
+                    <li>Art</li>
+                    <li>Sport</li>
+                    <li>Photography</li>
+                    <li>Virtual Reality</li>
+                    <li>Videos</li>
+                    <li>More</li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-item">
+                                    <img src="./source/image/image 2.png" alt="" class="img-fluid">
+                                    <div class="container card-cont">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span>Crazy Apes</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <img src="./source/image/Ellipse 1.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Current Bid</span><br>
+                                                <span>1.9 ETH</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Ending In</span><br>
+                                                <span>10h 23p 46s</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-item">
+                                    <img src="./source/image/image 3.png" alt="" class="img-fluid">
+                                    <div class="container card-cont">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span>Crazy Apes</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <img src="./source/image/Ellipse 1.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Current Bid</span><br>
+                                                <span>1.9 ETH</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Ending In</span><br>
+                                                <span>10h 23p 46s</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-item">
+                                    <img src="./source/image/image 4.png" alt="" class="img-fluid">
+                                    <div class="container card-cont">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span>Crazy Apes</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <img src="./source/image/Ellipse 1.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Current Bid</span><br>
+                                                <span>1.9 ETH</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Ending In</span><br>
+                                                <span>10h 23p 46s</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-item">
+                                    <img src="./source/image/image 5.png" alt="" class="img-fluid">
+                                    <div class="container card-cont">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span>Crazy Apes</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <img src="./source/image/Ellipse 1.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Current Bid</span><br>
+                                                <span>1.9 ETH</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Ending In</span><br>
+                                                <span>10h 23p 46s</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-item">
+                                    <img src="./source/image/image 6.png" alt="" class="img-fluid">
+                                    <div class="container card-cont">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span>Crazy Apes</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <img src="./source/image/Ellipse 1.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Current Bid</span><br>
+                                                <span>1.9 ETH</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Ending In</span><br>
+                                                <span>10h 23p 46s</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card">
+                                <div class="card-item">
+                                    <img src="./source/image/image 7.png" alt="" class="img-fluid">
+                                    <div class="container card-cont">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span>Crazy Apes</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <img src="./source/image/Ellipse 1.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Current Bid</span><br>
+                                                <span>1.9 ETH</span>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <span class="card-cont-name">Ending In</span><br>
+                                                <span>10h 23p 46s</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+            <div class="row">
+                <button class='market-btn'>View More</button>
+            </div>
+        </div>
+    </section> -->
+    <!-- End marketplace area -->
+
+    <!-- Create & sell -->
+    <!-- <section id="create-sell-area">
+        <div class="container">
+            <div class="row">
+                <p class="p-des">Be an NFT Creator</p>
+                <h1 class="h1-heading">Create & Sell Your NFTs
+                </h1>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="create-box">
+                        <img src="./source/image/preview.png" alt="" class="img-fluid">
+                        <h3>Create Artwork</h3>
+                        <p>Create your collection, Add social links, profile & banner images, and set a secondary sales
+                            fee.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="create-box">
+                        <img src="./source/image/preview.png" alt="" class="img-fluid">
+                        <h3>Upload</h3>
+                        <p>Upload your work, customize your NFTs with properties, starts, and unlockable content.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="create-box">
+                        <img src="./source/image/preview.png" alt="" class="img-fluid">
+                        <h3>Listing</h3>
+                        <p>Set up and choose between auction, fixed-price listings, and declining-price listings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button class="create-btn">Create Now</button>
+                <button class="create-btn create-btn-outline">Watch Video</button>
+            </div>
+        </div>
+    </section> -->
+    <!-- End create & sell -->
+
+    <!-- Top market -->
+    <!-- <section id="top-market-area">
+        <div class="container">
+            <div class="row">
+                <p class="p-des">NFT Creators</p>
+                <h1 class="h1-heading">Top Creators of the week</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 8.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>19,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 9.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>19,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 10.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>8,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 11.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>19,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 12.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>10,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 13.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>8,700.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 14.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>19,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 15.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>6,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="top-market-box">
+                        <img src="./source/image/image 16.png" alt="" class="img-fluid">
+                        <div class="top-market-content">
+                            <p>Risk Storms</p>
+                            <span><i class='bx bx-euro'></i>7,400.50 ETH</span>
+                        </div>
+                        <i class='bx bx-dots-horizontal-rounded'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn top-market-btn">Watch Video</button>
+            </div>
+        </div>
+    </section> -->
+    <!-- End top market -->
+
+    <!-- Contact area -->
+    <!-- <section id="contact-area">
+        <div class="container">
+            <div class="contact-box text-center">
+                <h1 class="h1">Join Our Comunity</h1>
+                <p>Meet the Team, artists and collection for problem updates, announcements, and more.</p>
+                <button class="btn">Take Me To Discord</button>
+            </div>
+        </div>
+    </section> -->
+    <!-- End contact -->
+
+    <!-- Footer -->
+    <!-- <footer id="footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="footer-heading">Conal</div>
+                    <p class="footer-des">Amazing NFTs marketplace, Authentic and unique digital creation</p>
+                    <ul class="social-list">
+                        <li class="social-item"><i class='bx bxs-phone'></i></li>
+                        <li class="social-item"><i class='bx bxl-facebook'></i></li>
+                        <li class="social-item"><i class='bx bxl-instagram-alt'></i></li>
+                        <li class="social-item"><i class='bx bxl-youtube'></i></li>
+                    </ul>
+                    <p class="footer-copy">Coppyright 2022 Conal</p>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2>Marketplace</h2>
+                            <ul>
+                                <li>Explore</li>
+                                <li>NFTs</li>
+                                <li>Collectibles</li>
+                                <li>Vitual Reality</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Resources</h2>
+                            <ul>
+                                <li>Help center</li>
+                                <li>Partners</li>
+                                <li>Blog</li>
+                                <li>Newsletter</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h2>Company</h2>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Careers</li>
+                                <li>Sopport</li>
+                                <li>Newsletter</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <!-- JS file  -->
+    <script src="./source/src/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

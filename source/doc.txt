@@ -1,0 +1,63 @@
+1 Nav
+	
+2 Explore
+- row
+	col-lg-6
+	col-lg-6
+- row
+	partner ul -> li (flex-end)
+
+
+
+
+3 Market
+-row
+	heading
+	description
+-row 
+	category ul -> li (flex-around)
+-row
+	card
+-button
+
+4 Create & sell
+-row 
+	heading
+	description
+-row 
+	card
+
+-button
+
+5 Rank
+-row 
+	heading
+	description
+-row
+	card
+
+6 Contact
+
+7 Footer
+-row
+	social
+	rule & introduce
+-row
+	copyright
+
+***************************
+-btn
+-color-btn
+-color-bg-card
+
+
+*********************
+Responsive
+
+sm < 540
+md >541 <768
+lg >769 <921
+xl >922 <1199
+xxl > 1200
+
+
