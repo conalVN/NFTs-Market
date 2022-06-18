@@ -40,7 +40,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 .card{
     background: var(--bg-card);
     padding: 1rem 1.5rem;
@@ -198,8 +197,6 @@ ul.market-menu{
 }
 /* End Market area */
 
-
-
 /* Create-sell */
 #creator-area{
     padding: 50px 5px;
@@ -228,52 +225,51 @@ ul.market-menu{
     background: #3B5971;
     border: 1px solid;
 }
-
 /* End create-sell */
 
 /* Top market */
-/* #top-market-area{
-    padding: 50px 0;
+#rank-area{
+    padding: 50px auto 0;
 }
-.top-market-box{
+.rank-box{
     display: flex;
-    align-items: center;
-    background: #545C71;
-    border-radius: 5px;
-    padding:10px;
+    padding: 5px;
     justify-content: space-around;
+    background-color: #545C71;
     margin: 10px 0;
+    align-items: center;
+    height: 80px;
 }
-.top-market-content{
-    width: 60%;
-}
-.top-market-content p{
+.rank-content p{
     margin: 0;
 }
-.top-market-btn{
-    width: 150px;
-    border: none;
-    outline: none;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background: #30384D;
-} */
-/* End top market */
+.rank-btn{
+    display: block;
+    margin: 30px auto;
+    border: 1px solid;
+    background: #3B5971;
+}
+/* End Top Market */
 
 /* Contact */
-/* #contact-area{
+#contact-area{
     padding: 50px 0;
 }
 .contact-box{
     background: #30384D;
-    padding: 50px;
+    padding: 60px;
     border-radius: 4px;
-} */
+}
+.contact-box .btn{
+    display: block;
+    margin: 20px auto;
+}
+
 /* End contact */
 
 /* Footer */
-/* #footer-area{
-    padding: 50px 0;
+#footer-area{
+    padding: 80px 0 20px;
 }
 #footer-area ul{
     list-style: none;
@@ -303,4 +299,14 @@ ul.market-menu{
 }
 .footer-copy{
     color: #434957;
-} */
+} 
+.rule{
+    display: flex;
+    justify-content: flex-end;
+}
+.rule p{
+    margin: 0 45px;
+}
+.copy, .rule{
+    color: #2a2d34;
+}
