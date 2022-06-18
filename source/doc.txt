@@ -7,9 +7,6 @@
 - row
 	partner ul -> li (flex-end)
 
-
-
-
 3 Market
 -row
 	heading
@@ -18,6 +15,7 @@
 	category ul -> li (flex-around)
 -row
 	card
+
 -button
 
 4 Create & sell
@@ -28,6 +26,10 @@
 	card
 
 -button
+
+
+
+
 
 5 Rank
 -row 

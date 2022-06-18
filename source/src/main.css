@@ -21,6 +21,7 @@ body{
 }
 /* CSS public */
 .btn{
+    display: block;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -31,7 +32,9 @@ body{
     text-align: center;
     align-items: center;
 }
-.descript{
+.description{
+    text-align: center;
+    margin: 0;
     background: linear-gradient(180deg, #9C76B8 0%, rgba(156, 118, 184, 0) 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -39,14 +42,17 @@ body{
 }
 
 .card{
-    position: absolute;
     background: var(--bg-card);
-    padding: 10px;
-    right: 0;
+    padding: 1rem 1.5rem;
+    margin: .5rem 1rem;
+}
+.card-image{
+    margin: 0 auto;
 }
 .card-body{
-    padding: 1rem .5rem .5rem;
+    padding: 1rem 1rem 0;
 }
+
 .card-heading{
     display: flex;
     justify-content: space-between;
@@ -64,7 +70,9 @@ body{
 .card-content ul{
     list-style: none;
     display: flex;
-    padding: 0;justify-content: space-between;
+    padding: 0;
+    justify-content: space-between;
+    margin-bottom: 0;
 }
 .card-content ul li{
     font-size: 15px;
@@ -106,7 +114,6 @@ form i {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
 ul.navbar-nav{
     width: 55%;
     justify-content: space-evenly;
@@ -151,6 +158,13 @@ input.form-control:focus {
     position: relative;
     width: 100%;
 }
+.explore-right .card{
+    right: 0;
+    position: absolute;
+}
+.explore-right .card-body{
+    padding: 1rem 0 0;
+}
 .explore-partner{
     display: flex;
     justify-content: flex-end;
@@ -163,97 +177,58 @@ input.form-control:focus {
 }
 /* End explore area */
 
+
 /* Marketplace area*/
-/* #marketplace-area{
-    position: relative;
-}
-.market-menu{
+ul.market-menu{
     display: flex;
-    justify-content: space-around;
     list-style: none;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .market-menu li{
-    padding: 5px 20px;
-    background: #30384D;
     border-radius: 5px;
-    font-size: 16px;
+    background: #30384d;
+    padding: 5px 30px;
+    margin: 5px 20px;
 }
-.card{
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    overflow: hidden;
-}
-.card-item{
-    background: #30384D;
-    padding: 15px 0;
-    width: 100%;
-}
-.card-item img{
-    margin: 0 auto;
+.market-product .btn{
     display: block;
+    margin: 2rem auto 0;
 }
-.card-cont{
-    width: 95%;
-    margin: 0 auto;
-}
-.card-cont .row{
-    padding: 10px 0 5px;
-}
-.card-cont-name{
-    color: #545C71;
-    font-size: 16px;
-}
-.market-btn{
-    padding: 10px 20px;
-    width: 150px;
-    margin: 50px auto;
-    outline: none;
-    border: none;
-    background: #30384D;
-    color: white;
-    border-radius: 5px;
-} */
-/* End Market */
+/* End Market area */
+
+
 
 /* Create-sell */
-/* #create-sell-area{
-    padding: 80px 0;
-    margin: 0 auto;
+#creator-area{
+    padding: 50px 5px;
 }
-.create-box{
-    padding: 20px;
+.creator-box{
     text-align: center;
-    background: #545C71;
-    width: 100%;
-    height: 100%;
+    background: #30384d;
     border-radius: 5px;
+    padding: 15px 30px;
+    margin: .5rem auto;
 }
-.create-box img{
-    display: block;
-    margin: 0 auto;
+.creator-box h3{
+    margin: 1rem auto;
 }
-.create-box h3{
-    padding: 10px 0;
+.creator-box-btn .btn{
+    width: 30%;
 }
-.create-btn{
-    color: white;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background: #30384D;
-    width: 150px;
-    background: var(--bg-color-btn);
-    padding: 10px 20px;
-    margin: 20px auto;
+.creator-box-btn{
+    display: flex;
+    justify-content: center;
 }
-.create-btn-outline{
-    background: #30384D;
-} */
+.creator-box-btn .btn{
+    margin: 50px 20px 10px;
+}
+.creator-btn-outline{
+    background: #3B5971;
+    border: 1px solid;
+}
+
 /* End create-sell */
 
 /* Top market */
